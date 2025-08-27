@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fabrica Porta Banners</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="warp">
+      <div class="cont">
+        <img
+          src="img/porta_banner-logo.png"
+          width="904"
+          height="321"
+          alt="Porta Banner"
+        />
+
+        <div id="azul"><p>PORTA BANNER</p></div>
+
+        <div id="cinza">
+          Fabricação própria de porta banner de alumínio<br />
+          Central distribuição em todas as capitais e cidades interior.
+        </div>
+
+        <div id="verde">
+          <p style="color: #fff">
+            ATENDIMENTO PELO WHATSAPP,
+            <a
+              class="sub1"
+              href="https://api.whatsapp.com/send?phone=5508005556262&text=Olá,%20gostaria%20de%20um%20orçamento"
+            >
+              CLIQUE AQUI!
+            </a>
+          </p>
+        </div>
+
+        <div id="red"><p>Central de atendimento TEL: 0800 555 6262</p></div>
+        <br />
+
+        <div id="neutro">
+          <a class="sub2" href="mailto:vendas@fabricadeportabanner.com.br">
+            <p style="color: #666">vendas@fabricadeportabanner.com.br</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="cont">
+        <div id="col">
+          <div id="laranja">COM PONTEIRA</div>
+          <br />
+          <img
+            src="img/sem_garras.png"
+            width="423"
+            height="422"
+            alt="sem garras"
+          />
+        </div>
+
+        <div id="col">
+          <div id="laranja">COM GARRAS</div>
+          <br />
+          <img
+            src="img/com_garras.png"
+            width="423"
+            height="422"
+            alt="com garras"
+          />
+        </div>
+      </div>
+
+      <div class="cont">
+        <img
+          src="img/Design sem nome.png"
+          width="904"
+          height="321"
+          alt="Produtos"
+        />
+      </div>
+
+      <div class="cont">
+        <img src="img/orcamento.png" width="904" height="174" alt="Orçamento" />
+      </div>
+
+      <div
+        class="cont"
+        style="
+          background: url(img/bg_banner.png) no-repeat top;
+
+          overflow: hidden;
+        "
+      >
+        <div class="for">
+          <form action="contato.php" method="post" class="form_prod">
+            Nome:<br />
+            <input
+              name="nome"
+              type="text"
+              class="form_caixa"
+              id="nome"
+              style="width: 90%"
+              required
+              oninvalid="this.setCustomValidity('Por favor, digite seu nome.')"
+              oninput="this.setCustomValidity('')"
+            /><br /><br />
+
+            E-mail:<br />
+            <input
+              name="email"
+              type="email"
+              class="form_caixa"
+              id="email"
+              style="width: 90%"
+              required
+              oninvalid="this.setCustomValidity('Por favor, digite seu e-mail.')"
+              oninput="this.setCustomValidity('')"
+            /><br /><br />
+
+            Tel:<br />
+            <input
+              name="tel"
+              type="tel"
+              class="form_caixa"
+              id="tel"
+              style="width: 90%"
+              required
+              oninvalid="this.setCustomValidity('Por favor, digite seu telefone.')"
+              oninput="this.setCustomValidity('')"
+            /><br /><br />
+
+            Cidade:<br />
+            <input
+              name="cidade"
+              type="text"
+              class="form_caixa"
+              id="cidade"
+              style="width: 90%"
+              required
+              oninvalid="this.setCustomValidity('Por favor, digite sua cidade.')"
+              oninput="this.setCustomValidity('')"
+            /><br /><br />
+
+            <label
+              >Tripé para com garra
+              <input type="radio" name="garras" value="com" /> </label
+            ><br />
+
+            <label
+              >Tripé para Banner com ponteira
+              <input type="radio" name="garras" value="sem" /> </label
+            ><br /><br />
+
+            Quantidade de tripé para banner:<br />
+            <input
+              name="qtd"
+              type="number"
+              class="form_caixa"
+              id="qtd"
+              style="width: 90%"
+            /><br /><br />
+
+            Tamanho do tripé para banner:<br />
+            <label
+              ><input type="radio" name="metragem" value="1,80m" /> 1,80m</label
+            >
+            <label
+              ><input type="radio" name="metragem" value="2,00m" /> 2,00m</label
+            >
+            <label
+              ><input type="radio" name="metragem" value="2,20m" /> 2,20m</label
+            >
+            <label
+              ><input type="radio" name="metragem" value="3,00m" /> 3,00m</label
+            ><br /><br />
+
+            Mensagem:<br />
+            <textarea
+              name="msg"
+              rows="7"
+              class="form_caixatxt"
+              id="msg"
+            ></textarea
+            ><br /><br />
+
+            <input
+              name="button"
+              type="submit"
+              class="form_botao"
+              id="button"
+              value="Enviar"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div style="background-color: #09f; padding: 10px 0">
+      <div class="warp" style="color: #fff">
+        Fabrica de Porta Banner - Razão Social Ivan Teixeira Fabrica de Porta
+        Banner ME, com início de atividade em 11.08.1994, inscrito no CNPJ
+        00.162.239/0001-68, com Certidões Negativas de todos os órgãos: Federal,
+        Estadual e Municipal.<br />
+        <a href="mailto:contato@fabricadeportabanner.com.br" style="color: #fff"
+          >contato@fabricadeportabanner.com.br</a
+        ><br />
+      </div>
+    </div>
+
+    <!-- BEGIN JIVOSITE CODE {literal} -->
+    <script type="text/javascript">
+      ;(function () {
+        var widget_id = 'gB9pmwWx7K'
+        var d = document
+        var w = window
+        function l() {
+          var s = document.createElement('script')
+          s.type = 'text/javascript'
+          s.async = true
+          s.src = '//code.jivosite.com/script/widget/' + widget_id
+          var ss = document.getElementsByTagName('script')[0]
+          ss.parentNode.insertBefore(s, ss)
+        }
+        if (d.readyState == 'complete') {
+          l()
+        } else {
+          if (w.attachEvent) {
+            w.attachEvent('onload', l)
+          } else {
+            w.addEventListener('load', l, false)
+          }
+        }
+      })()
+    </script>
+    <!-- {/literal} END JIVOSITE CODE -->
+  </body>
+</html>
